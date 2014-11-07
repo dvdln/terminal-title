@@ -1,4 +1,6 @@
-/*jshint node:true*/
+#!/usr/bin/env node
+
+/*jshing node:true*/
 'use strict';
 
 var meow = require('meow');
