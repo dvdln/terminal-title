@@ -3,16 +3,18 @@
 /*jshing node:true*/
 'use strict';
 
-var meow = require('meow');
+var pkg = require('../package.json');
+var program = require('commander');
 var title = require('../');
 
-var cli = meow({
-    pkg: '../package.json',
-    help: 'Usage\n  title <window title>'
-});
+program
+    .version(pkg.version)
+    .usage('<title> [--window]')
+    .option('-w, --window', 'add title to window instead of tab')
+    .parse(process.argv);
 
-if (!cli.input.length) {
-    cli.showHelp();
+if (!program.args.length) {
+    program.help();
 } else {
-    title(cli.input, cli.flags.window);
+    title(program.args.join(' '), program.window);
 }

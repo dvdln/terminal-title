@@ -14,8 +14,8 @@
   ],
   "author": "David Lane <me@dvdln.com> (http://dvdln.com)",
   "repository": {
-    "type" : "git",
-    "url" : "http://github.com/dvdln/terminal-title.git"
+    "type": "git",
+    "url": "http://github.com/dvdln/terminal-title.git"
   },
   "bugs": {
     "url": "https://github.com/dvdln/terminal-title/issues"
@@ -31,6 +31,6 @@
   "license": "MIT",
   "dependencies": {
     "colors": "^1.0.3",
-    "meow": "^2.0.0"
+    "commander": "^2.5.0"
   }
 }
