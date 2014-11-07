@@ -11,12 +11,15 @@ npm install -g terminal-title
 ## Usage
 Pass a string to `title` to set it as the currently focussed tab's title.
 ```sh
-title My Tab Title
+title <title> [--window]
 ```
 
 ### Options
-- `--window` - Add title to window instead of tab
-- `--help` - Output usage information
+```sh
+-h, --help     output usage information
+-V, --version  output the version number
+-w, --window   add title to window instead of tab
+```
 
 ## License
 [MIT](LICENSE) - Copyright &copy; 2014 David Lane
