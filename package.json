@@ -1,0 +1,27 @@
+{
+  "name": "terminal-title",
+  "version": "0.1.0",
+  "description": "Command-line script to add a title to your terminal tab.",
+  "main": "lib",
+  "bin": {
+    "title": "bin/title.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "shell",
+    "command-line",
+    "terminal",
+    "window",
+    "tab",
+    "title"
+  ],
+  "author": "David Lane <me@dvdln.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "meow": "^2.0.0"
+  }
+}
