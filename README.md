@@ -15,6 +15,6 @@ title My Tab Title
 ```
 
 ## License
-The MIT License ([MIT][http://opensource.org/licenses/MIT])
+The MIT License ([MIT](http://opensource.org/licenses/MIT))
 
 Copyright &copy; 2014 David Lane
