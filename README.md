@@ -19,6 +19,4 @@ title My Tab Title
 - `--help` - Output usage information
 
 ## License
-The MIT License ([MIT](http://opensource.org/licenses/MIT))
-
-Copyright &copy; 2014 David Lane
+[MIT](LICENSE) - Copyright &copy; 2014 David Lane
