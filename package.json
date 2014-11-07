@@ -6,7 +6,6 @@
   "keywords": [
     "cli",
     "shell",
-    "command-line",
     "terminal",
     "window",
     "tab",
@@ -15,7 +14,7 @@
   "author": "David Lane <me@dvdln.com> (http://dvdln.com)",
   "repository": {
     "type": "git",
-    "url": "http://github.com/dvdln/terminal-title.git"
+    "url": "git://github.com/dvdln/terminal-title.git"
   },
   "bugs": {
     "url": "https://github.com/dvdln/terminal-title/issues"
