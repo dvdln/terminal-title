@@ -2,7 +2,7 @@
 'use strict';
 
 var meow = require('meow');
-var title = require('../lib');
+var title = require('../');
 
 var cli = meow({
     pkg: '../package.json',
