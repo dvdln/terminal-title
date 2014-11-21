@@ -25,4 +25,4 @@ Strings passed to `title` may be in quotes, but it's not required.
 
 ---
 
-<em style="font: italic small/1 serif">Lic.</em> [MIT](LICENSE) &vellip; <em style="font: italic small/1 serif">Copyright &copy;</em> [David Lane](dvdln.com)
+_Lic._ [MIT](LICENSE) &ndash; _Copyright &copy;_ [David Lane](dvdln.com)
