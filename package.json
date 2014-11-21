@@ -29,7 +29,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "colors": "^1.0.3",
+    "chalk": "^0.5.1",
     "commander": "^2.5.0"
   }
 }
