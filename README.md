@@ -1,7 +1,7 @@
 # terminal-title
 > Command-line script to add a title to your terminal window.
 
-![npm](http://img.shields.io/npm/v/terminal-title.svg)
+[![npm](http://img.shields.io/npm/v/terminal-title.svg)](http://)
 
 ## Installation
 ```sh
@@ -25,4 +25,4 @@ Strings passed to `title` may be in quotes, but it's not required.
 
 ---
 
-_Lic._ [MIT](LICENSE) &ndash; _Copyright &copy;_ [David Lane](dvdln.com)
+_Lic._ [MIT](LICENSE) &ndash; _Copyright &copy;_ [David Lane](http://dvdln.com)
