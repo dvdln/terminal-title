@@ -1,6 +1,6 @@
 {
   "name": "terminal-title",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Command-line script to add a title to your terminal tab.",
   "homepage": "https://github.com/dvdln/terminal-title",
   "keywords": [
