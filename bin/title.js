@@ -1,11 +1,8 @@
 #!/usr/bin/env node
 
-/*jshing node:true*/
-'use strict';
-
 var pkg = require('../package.json');
 var program = require('commander');
-var title = require('../');
+var title = require('../index');
 
 program
     .version(pkg.version)

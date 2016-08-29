@@ -1,5 +1,5 @@
 # terminal-title
-> Command-line script to add a title to your terminal window.
+> Adds a title to your terminal tab or window.
 
 [![npm](http://img.shields.io/npm/v/terminal-title.svg)](https://www.npmjs.org/package/terminal-title)
 
@@ -14,15 +14,7 @@ Pass a string to `title` to set it as the currently focussed tab's title.
 title My Terminal Tab
 ```
 
-Strings passed to `title` may be in quotes, but it's not required.
-
-## Options
+Use `-w` to set the window title.
 ```sh
-    -h, --help     output usage information
-    -V, --version  output the version number
-    -w, --window   add title to window instead of tab
+title -w My Window
 ```
-
----
-
-_Lic._ [MIT](LICENSE) &ndash; _Copyright &copy;_ [David Lane](http://dvdln.com)

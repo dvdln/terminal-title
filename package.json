@@ -1,8 +1,7 @@
 {
   "name": "terminal-title",
-  "version": "0.1.11",
-  "description": "Command-line script to add a title to your terminal tab.",
-  "homepage": "https://github.com/dvdln/terminal-title",
+  "version": "1.0.1",
+  "description": "Adds a title to your terminal tab or window.",
   "keywords": [
     "cli",
     "shell",
@@ -11,25 +10,22 @@
     "tab",
     "title"
   ],
+  "license": "ISC",
   "author": "David Lane <me@dvdln.com> (http://dvdln.com)",
+  "main": "index.js",
+  "bin": {
+    "title": "./bin/title.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/dvdln/terminal-title.git"
   },
-  "bugs": {
-    "url": "https://github.com/dvdln/terminal-title/issues"
-  },
-  "main": "./",
-  "bin": {
-    "title": "./bin/title.js"
-  },
-  "preferGlobal": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "MIT",
   "dependencies": {
     "chalk": "^0.5.1",
     "commander": "^2.5.0"
-  }
+  },
+  "preferGlobal": true
 }
